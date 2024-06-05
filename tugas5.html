@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dialog Penjual dan Pembeli</title>
+</head>
+<body>
+  <button onclick="perkenalan()">Click Me</button>
+  <script>
+    function perkenalan() {
+      alert("Selamat datang di Toko Milk Store!");
+      alert("Ada yang bisa kami bantu?");
+      var nama = prompt("");
+      alert("Baik");
+      alert("Disini kami menjual varian susu seperti:");
+      alert("Susu Ultra milk, susu bendera, susu beruang, dan susu dencow.");
+      var nama = prompt("");
+      alert("Baik, harganya Rp20.000.");
+      var nama = prompt("");
+      alert("Ada lagi?");
+      var nama = prompt("");
+      alert("Baik, Terimakasih Kembali");
+
+      if (nama!= null && nama!= "") {
+        document.write("Terimakasih Telah Berbelanja di tokoh Milk Store kami!!!");
+      } else {
+        document.write("Belanja lagi yuk.");
+      }
+    }
+  </script>
+</body>
+</html>
